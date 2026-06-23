@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['buah_sayur_lainnya', 'buah_sayur_vitA', 'daging', 'kacang_legume', 'makanan_berpati', 'produk_susu', 'telur']
+
+roboflow:
+  workspace: object-detection-pkd4i
+  project: object-prediction-project
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-pkd4i/object-prediction-project/dataset/dataset
